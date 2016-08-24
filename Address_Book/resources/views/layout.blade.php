@@ -13,7 +13,7 @@
                 @if(Auth::check())
                     <li><a href="{{URL::to('profile')}}">Profile</a></li>
                     <li><a href="{{URL::to('addressbook')}}">addressbook</a></li>
-					 <li><a href="{{URL::to('upload')}}">addressbook</a></li>
+					 <li><a href="{{URL::to('upload')}}">Upload</a></li>
                     <li><a href="{{URL::to('logout')}}">Logout ({{Auth::user()->username}})</a> </li>
                 @else
                     <li><a href="{{URL::to('login')}}">Login</a></li>

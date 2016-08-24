@@ -66,7 +66,9 @@ class UploadController extends Controller
       {
          $this->save(array('type'=>"file",'path'=>$value1));
       }
-   }     
+   }
+
+   return redirect()->action('UploadController@index');     
   }
 
   public function save($input)

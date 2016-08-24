@@ -19,7 +19,7 @@
     <!-- password field -->
     <p>
 		<label>password</label><br/>
-        <input type="text" name="password">
+        <input type="password" name="password">
     </p>
 <input type="hidden" name="_token" value="{{ csrf_token() }}">
     <!-- submit button -->
